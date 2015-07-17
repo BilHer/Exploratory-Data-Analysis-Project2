@@ -1,6 +1,3 @@
----
-output: html_document
----
 ##Exploratory-Data-Analysis-Project2
 #Introduction
 
