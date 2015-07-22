@@ -7,7 +7,7 @@ if(!exists("SCC")){
   SCC <- readRDS("./exdata-data-NEI_data/Source_Classification_Code.rds")
 }
 ##Subconjunto de datos NEI para subsetBalt
-subsetBalt <- NEI[NEI$fips=="24510", ]
+subsetBalt <- NEI[NEI$fips == "24510", ]
 #Agregamos la suma total de emisiones para subsetNEI
 Addtotal <- aggregate(Emissions ~ year, subsetBalt, sum)
 ##Creamos el Plot
